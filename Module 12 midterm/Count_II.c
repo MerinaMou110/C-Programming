@@ -1,3 +1,22 @@
+// Problem Statement
+
+// You will be given a string S as input contains only small English alphabets. You need to tell the number of vowels in it. The string will not contain any spaces.
+
+// Note: Vowels are a,e,i,o and u
+
+// Input Format
+
+// Input will contain a string S.
+// Constraints
+
+// 1 <= |S| <= 1000 ; Here |S| means the length of string S.
+// Output Format
+
+// Output the number of vowels.
+// Sample Input 0
+
+// thefoxisgone
+
 #include<stdio.h>
 #include<string.h>
 int main(){
@@ -33,4 +52,22 @@ int main(){
     //     }
     // }
     // printf("small=%d,capital=%d",s,c);
+
+                   //count constant
+
+// char ch;
+// int cnt=0;
+// while(scanf("%c",&ch)!=EOF){
+//     if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+//           continue;
+//     }
+//     else{
+//         cnt++;
+//     }
+
+// }
+// printf("%d",cnt);
+
+
+
 }
